@@ -155,16 +155,12 @@ export default function Home() {
             </p>
           </div>
           <div>
-            <h4 className="font-bold text-[#1e3a5f] mb-4">Contato</h4>
-            <p className="text-sm text-gray-600 mb-2">contato@otimizzi.com</p>
-            <p className="text-sm text-gray-600">Cruz, Ceará, Brasil</p>
-          </div>
-          <div>
             <h4 className="font-bold text-[#1e3a5f] mb-4">Links Úteis</h4>
             <ul className="space-y-2 text-sm text-gray-600">
               <li><a href="#" className="hover:text-[#f5a623]">Sobre Nós</a></li>
               <li><a href="#solucoes" className="hover:text-[#f5a623]">Nossas Soluções</a></li>
-              {/* Link para o DPN adicionado aqui */}
+              
+              {/* Link do DPN */}
               <li>
                 <a 
                   href="/dpn.pdf" 
@@ -173,6 +169,18 @@ export default function Home() {
                   className="hover:text-[#f5a623]"
                 >
                   Declaração de Práticas de Negócios (DPN)
+                </a>
+              </li>
+
+              {/* Novo Link da DPC AC VALID adicionado aqui */}
+              <li>
+                <a 
+                  href="/dpc-ac-validv5.pdf" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="hover:text-[#f5a623]"
+                >
+                  DPC - AC VALID V5
                 </a>
               </li>
             </ul>
