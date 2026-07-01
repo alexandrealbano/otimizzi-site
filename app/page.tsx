@@ -10,7 +10,7 @@ export default function Home() {
           <div className="flex-shrink-0">
             {/* Logo da Otimizzi */}
             <Image
-              src="/Otimizzi_LOGO_oficial.jpg"
+              src="/logo_nome.png"
               alt="Otimizzi Logo"
               width={180}
               height={65}
@@ -25,7 +25,7 @@ export default function Home() {
             <a href="#solucoes" className="hover:text-[#f5a623] transition-colors pb-1">Nossas Soluções</a>
             <a href="#solar" className="hover:text-[#f5a623] transition-colors pb-1">Energia Solar</a>
             <a href="#automacao" className="hover:text-[#f5a623] transition-colors pb-1">Automação & TI</a>
-            <a href="#projetos" className="hover:text-[#f5a623] transition-colors pb-1">Projetos</a>
+            <a href="#certificados" className="hover:text-[#f5a623] transition-colors pb-1">Certificados Digitais</a>
           </nav>
 
           {/* Botão de Orçamento */}
@@ -55,7 +55,7 @@ export default function Home() {
                 A Otimizzi Transformando Sua Vida com Energia Inteligente.
               </h1>
               <p className="text-lg md:text-xl text-gray-200 mb-8 drop-shadow-md">
-                Combinamos energia solar fotovoltaica com conectividade avançada e automação para o máximo conforto e economia.
+                Combinamos energia solar fotovoltaica com conectividade avançada, automação e segurança digital para o máximo conforto e economia.
               </p>
             </div>
           </div>
@@ -74,18 +74,18 @@ export default function Home() {
             {/* Card 2 */}
             <div className="bg-white rounded-full p-8 shadow-xl flex flex-col items-center text-center w-64 h-64 justify-center border-4 border-slate-50 hover:scale-105 transition-transform cursor-pointer">
               <svg className="w-16 h-16 text-[#1e3a5f] mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
-              <h3 className="text-xl font-bold text-[#1e3a5f]">Sistemas de<br/>Automação & Redes</h3>
+              <h3 className="text-xl font-bold text-[#1e3a5f]">Sistemas de<br/>Automação & TI</h3>
             </div>
 
           </div>
         </section>
 
         {/* 4. PILARES DE OTIMIZAÇÃO */}
-        <section className="bg-white pt-24 pb-20 mt-[-100px] pt-[150px]">
+        <section id="solucoes" className="bg-white pt-24 pb-20 mt-[-100px] pt-[150px]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-extrabold text-[#1e3a5f] mb-16">Nossos Pilares de Otimização</h2>
             
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-left">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-16 text-left">
               
               {/* Pilar 1 */}
               <div className="flex flex-col items-start">
@@ -106,7 +106,7 @@ export default function Home() {
                   <div className="p-3 bg-yellow-50 rounded-lg text-[#f5a623]">
                     <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.906 14.142 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0"></path></svg>
                   </div>
-                  <h3 className="text-lg font-bold text-[#1e3a5f]">CONECTIVIDADE WI-FI</h3>
+                  <h3 className="text-lg font-bold text-[#1e3a5f]">CONECTIVIDADE & AUTOMAÇÃO</h3>
                 </div>
                 <p className="text-gray-600 text-sm leading-relaxed">
                   Infraestrutura de rede robusta e sistemas de automação inteligente para sua casa ou empresa. Controle total na palma da sua mão com máxima estabilidade.
@@ -126,6 +126,19 @@ export default function Home() {
                 </p>
               </div>
 
+              {/* Pilar 4 - Certificados Digitais */}
+              <div id="certificados" className="flex flex-col items-start">
+                <div className="flex items-center gap-4 mb-4">
+                  <div className="p-3 bg-purple-50 rounded-lg text-purple-600">
+                    <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                  </div>
+                  <h3 className="text-lg font-bold text-[#1e3a5f]">CERTIFICADOS DIGITAIS</h3>
+                </div>
+                <p className="text-gray-600 text-sm leading-relaxed">
+                  Emissão ágil e segura de Certificados Digitais para Pessoa Física (e-CPF) e Jurídica (e-CNPJ). Autenticidade, integridade e validade jurídica para seus documentos e transações fiscais.
+                </p>
+              </div>
+
             </div>
           </div>
         </section>
@@ -138,7 +151,7 @@ export default function Home() {
           <div className="col-span-1 md:col-span-2">
             <Image src="/Otimizzi_LOGO_oficial.jpg" alt="Otimizzi Logo" width={150} height={50} className="mb-4" />
             <p className="text-sm text-gray-500 mt-4 max-w-xs">
-              Soluções completas em energia fotovoltaica, automação, infraestrutura de redes e materiais elétricos.
+              Soluções completas em energia fotovoltaica, automação, infraestrutura de redes, materiais elétricos e certificação digital.
             </p>
           </div>
           <div>
@@ -147,11 +160,21 @@ export default function Home() {
             <p className="text-sm text-gray-600">Cruz, Ceará, Brasil</p>
           </div>
           <div>
-            <h4 className="font-bold text-[#1e3a5f] mb-4">Links</h4>
+            <h4 className="font-bold text-[#1e3a5f] mb-4">Links Úteis</h4>
             <ul className="space-y-2 text-sm text-gray-600">
               <li><a href="#" className="hover:text-[#f5a623]">Sobre Nós</a></li>
-              <li><a href="#" className="hover:text-[#f5a623]">Nossas Soluções</a></li>
-              <li><a href="#" className="hover:text-[#f5a623]">Política de Privacidade</a></li>
+              <li><a href="#solucoes" className="hover:text-[#f5a623]">Nossas Soluções</a></li>
+              {/* Link para o DPN adicionado aqui */}
+              <li>
+                <a 
+                  href="/dpn.pdf" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="hover:text-[#f5a623]"
+                >
+                  Declaração de Práticas de Negócios (DPN)
+                </a>
+              </li>
             </ul>
           </div>
         </div>
