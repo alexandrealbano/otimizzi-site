@@ -1,1 +1,1 @@
-echo "site.otimizzi.com" > public/CNAME
+echo "otimizzi.com" > public/CNAME

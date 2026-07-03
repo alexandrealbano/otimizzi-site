@@ -62,24 +62,24 @@ export default function Home() {
         {/* 3. CARDS FLUTUANTES (Sobrepostos) */}
         <section className="relative z-20 -mt-24 max-w-5xl mx-auto px-4">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 justify-items-center">
-            
-            {/* Card 1 - Energia Solar */}
-            <div className="bg-white rounded-full p-8 shadow-xl flex flex-col items-center text-center w-64 h-64 justify-center border-4 border-slate-50 hover:scale-105 transition-transform cursor-pointer">
-              <svg className="w-14 h-14 text-[#f5a623] mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
-              <h3 className="text-xl font-bold text-[#1e3a5f]">Soluções<br/>Fotovoltaicas</h3>
-            </div>
 
-            {/* Card 2 - Automação & TI */}
-            <div className="bg-white rounded-full p-8 shadow-xl flex flex-col items-center text-center w-64 h-64 justify-center border-4 border-slate-50 hover:scale-105 transition-transform cursor-pointer">
-              <svg className="w-14 h-14 text-[#1e3a5f] mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
-              <h3 className="text-xl font-bold text-[#1e3a5f]">Sistemas de<br/>Automação & TI</h3>
-            </div>
-
-            {/* Card 3 - Certificados Digitais */}
+            {/* Card 1 - Certificados Digitais */}
             <a href="#certificados" className="bg-white rounded-full p-8 shadow-xl flex flex-col items-center text-center w-64 h-64 justify-center border-4 border-slate-50 hover:scale-105 transition-transform cursor-pointer group">
               <svg className="w-14 h-14 text-purple-600 mb-3 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
               <h3 className="text-xl font-bold text-[#1e3a5f]">Certificados<br/>Digitais</h3>
             </a>
+
+            {/* Card 2 - Automação & TI */}
+            <a href="/automacao" className="bg-white rounded-full p-8 shadow-xl flex flex-col items-center text-center w-64 h-64 justify-center border-4 border-slate-50 hover:scale-105 transition-transform cursor-pointer group">
+              <svg className="w-14 h-14 text-[#1e3a5f] mb-3 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
+              <h3 className="text-xl font-bold text-[#1e3a5f]">Sistemas de<br/>Automação & TI</h3>
+            </a>
+
+            {/* Card 3 - Energia Solar */}
+            <div className="bg-white rounded-full p-8 shadow-xl flex flex-col items-center text-center w-64 h-64 justify-center border-4 border-slate-50 hover:scale-105 transition-transform cursor-pointer">
+              <svg className="w-14 h-14 text-[#f5a623] mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+              <h3 className="text-xl font-bold text-[#1e3a5f]">Soluções<br/>Fotovoltaicas</h3>
+            </div>
 
           </div>
         </section>
