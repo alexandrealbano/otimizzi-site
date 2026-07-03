@@ -226,7 +226,7 @@ export default function Home() {
           <div className="col-span-1 md:col-span-1">
             <Image src="/logo_nome.png" alt="Otimizzi Logo" width={150} height={50} className="mb-4 brightness-0 invert" />
             <p className="text-sm text-slate-400 mt-4 leading-relaxed">
-              Soluções completas e integradas em engenharia fotovoltaica, automação comercial, infraestrutura de redes, materiais elétricos e segurança digital.
+              Soluções completas e integradas em engenharia fotovoltaica, automação comercial, materiais elétricos e segurança digital.
             </p>
           </div>
           <div>
