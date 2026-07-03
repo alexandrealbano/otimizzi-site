@@ -92,16 +92,28 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-16 text-left">
               
               {/* Pilar 1 */}
-              <div className="flex flex-col items-start">
-                <div className="flex items-center gap-4 mb-4">
-                  <div className="p-3 bg-blue-50 rounded-lg text-[#1e3a5f]">
-                    <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+              <div className="flex flex-col items-start justify-between h-full">
+                <div>
+                  <div className="flex items-center gap-4 mb-4">
+                    <div className="p-3 bg-blue-50 rounded-lg text-[#1e3a5f]">
+                      <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    </div>
+                    <h3 className="text-lg font-bold text-[#1e3a5f]">ENERGIA RENOVÁVEL</h3>
                   </div>
-                  <h3 className="text-lg font-bold text-[#1e3a5f]">ENERGIA RENOVÁVEL</h3>
+                  <p className="text-gray-600 text-sm leading-relaxed mb-4">
+                    Reduza custos e gere sua própria energia limpa. Projetos personalizados com homologação e instalação técnica especializada, garantindo o melhor retorno do seu investimento.
+                  </p>
                 </div>
-                <p className="text-gray-600 text-sm leading-relaxed">
-                  Reduza custos e gere sua própria energia limpa. Projetos personalizados com homologação e instalação técnica especializada, garantindo o melhor retorno do seu investimento.
-                </p>
+                {/* Link do FAQ adicionado aqui */}
+                <a 
+                  href="https://faqsolar.otmzi.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center text-xs font-bold text-blue-600 hover:text-blue-800 transition-colors bg-blue-50 px-3 py-1.5 rounded-lg border border-blue-100"
+                >
+                  Acessar FAQ de Energia Solar
+                  <svg className="w-3.5 h-3.5 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                </a>
               </div>
 
               {/* Pilar 2 */}
@@ -147,7 +159,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* NOVA SEÇÃO: 5. CONTATO DIRETO E ATENDIMENTO */}
+        {/* 5. CONTATO DIRETO E ATENDIMENTO */}
         <section id="contato" className="bg-slate-100 py-20 border-t border-slate-200">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-extrabold text-[#1e3a5f] mb-4">Fale Conosco</h2>
@@ -157,7 +169,7 @@ export default function Home() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               
-              {/* Card Contato Informática, Automação e Certificados */}
+              {/* Card Contato Informática */}
               <a 
                 href="https://wa.me/5588999974367" 
                 target="_blank" 
@@ -235,10 +247,11 @@ export default function Home() {
             </ul>
           </div>
           <div>
-            <h4 className="font-bold text-white mb-4 tracking-wider uppercase text-xs">Localização</h4>
+            <h4 className="font-bold text-white mb-4 tracking-wider uppercase text-xs">Onde Estamos</h4>
             <p className="text-sm text-slate-400 leading-relaxed">
-              Cruz, Ceará, Brasil<br />
-              Atendimento regional e suporte técnico especializado.
+              Rua 6 de Abril, 466, Loja 08<br />
+              Centro — Cruz - CE<br />
+              CEP: 62595-000
             </p>
           </div>
           <div>
@@ -267,8 +280,9 @@ export default function Home() {
             </ul>
           </div>
         </div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 pt-8 border-t border-slate-800 text-center text-xs text-slate-500">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-500">
           <p>&copy; {new Date().getFullYear()} Otimizzi. Todos os direitos reservados.</p>
+          <p className="font-mono">CNPJ: 32.381.563/0001-63</p>
         </div>
       </footer>
 
